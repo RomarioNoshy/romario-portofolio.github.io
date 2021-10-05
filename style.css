@@ -1,0 +1,76 @@
+body{
+    font-family: 'Red Hat Display', sans-serif; 
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.container{
+    width: 405px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;   
+}
+.container .img1{
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+}
+.content{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 20px 0px rgb(0 0 0 / 50%);
+    margin-top: -10px;
+    border-radius: 0px 0px 20px 20px;
+}
+.content .text{
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 0 10px;
+}
+.order{
+    width: 95%;
+    height: 80px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.order span{    
+    font-weight: 700;
+    font-size: 15px;
+    color: hsl(224, 23%, 55%);
+}
+
+
+.buttons button:first-of-type{
+    width: 350px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.buttons button:last-of-type{
+    background-color: white;
+    color: black;
+    border: none;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: hsl(224, 23%, 55%);
+}
